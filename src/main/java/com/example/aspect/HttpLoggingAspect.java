@@ -12,9 +12,9 @@ public class HttpLoggingAspect {
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
     private final HttpLoggingProperties httpLoggingProperties;
 
-    public HttpLoggingAspect(HttpLoggingProperties httpLoggingProperties, HttpLoggingProperties httpLoggingProperties1) {
+    public HttpLoggingAspect(HttpLoggingProperties httpLoggingProperties) {
 
-        this.httpLoggingProperties = httpLoggingProperties1;
+        this.httpLoggingProperties = httpLoggingProperties;
     }
 
 
